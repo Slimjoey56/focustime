@@ -1,11 +1,64 @@
-# Sample Snack app
+# FocusTime
 
-Open the `App.js` file to start writing some code. You can preview the changes directly on your phone or tablet by scanning the **QR code** or use the iOS or Android emulators. When you're done, click **Save** and share the link!
+A React Native application built with Expo. This repository contains the mobile application source and its Expo configuration.
 
-When you're ready to see everything that Expo provides (or if you want to use your own editor) you can **Download** your project and use it with [expo cli](https://docs.expo.dev/get-started/installation/#expo-cli)).
+## Technology
 
-All projects created in Snack are publicly available, so you can easily share the link to this project via link, or embed it on a web page with the `<>` button.
+- React Native
+- React
+- Expo SDK 50
+- React Native Paper
+- Expo Vector Icons
 
-If you're having problems, you can tweet to us [@expo](https://twitter.com/expo) or ask in our [forums](https://forums.expo.dev/c/expo-dev-tools/61) or [Discord](https://chat.expo.dev/).
+## Getting Started
 
-Snack is Open Source. You can find the code on the [GitHub repo](https://github.com/expo/snack).
+### Requirements
+
+- Node.js and npm
+- Expo-compatible development environment
+- Expo Go on a physical device, or an Android/iOS emulator
+
+### Install dependencies
+
+```bash
+npm install
+```
+
+### Start the development server
+
+```bash
+npm start
+```
+
+Use the Expo terminal options to open the project on Android, iOS, or the web:
+
+```bash
+npm run android
+npm run ios
+npm run web
+```
+
+## Project Structure
+
+```text
+.
+├── App.js
+├── app.json
+├── assets/
+├── src/
+├── package.json
+└── babel.config.js
+```
+
+## Development Notes
+
+The project uses Expo's managed development workflow. Application-specific behaviour should be documented here as the screens and features are finalised.
+
+## Status
+
+This README documents the repository's verified framework and development commands. It does not claim production readiness or feature behaviour that has not been documented.
+
+## Author
+
+Jehosaphat Brobbey Impiani  
+[GitHub profile](https://github.com/Slimjoey56)
